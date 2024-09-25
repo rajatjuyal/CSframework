@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/JOB FIND 10 days study 28-6/RESUME MAY end/Sapient/testproject/CodeStudioFramework/src/test/java/com/mystore/testcases/TC_MAccountPageTest.java">
+        <classes>
+            <class name="com.mystore.testcases.TC_MAccountPageTest">
+                <methods>
+                    <include name="verifyRegistrationandLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

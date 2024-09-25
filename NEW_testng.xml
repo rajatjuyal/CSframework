@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="CodeStudioFrameworkRun" parallel="tests" thread-count="3">-->
+    <suite name="CodeStudioFrameworkRun">
+    <listeners>
+        <listener class-name="com.mystore.utilities.ExtentListenerClass"></listener>
+    </listeners>
+<!--    <test name="EdgeTests">-->
+<!--        <parameter name="browser" value="msedge"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="com.mystore.testcases.TC_MAccountPageTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="ChromeTests">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.mystore.testcases.TC_MAccountPageTest"/>
+        </classes>
+    </test>
+
+
+<!--    <test name="FirefoxTests">-->
+<!--        <parameter name="browser" value="firefox"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="com.mystore.testcases.TC_MAccountPageTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
